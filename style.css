@@ -1,0 +1,229 @@
+body{
+	background-image: linear-gradient(to right, blue , lightblue);
+}
+header{
+
+}
+
+
+div.photo{
+	position: relative;
+	
+}
+div.phone{
+     position:absolute;
+     top:0;
+     right:0;
+     padding: 0px;
+     padding: 2px;
+     margin-bottom:370px;
+     padding-bottom:20px;
+     font-size: 15px;
+     color: green;
+     
+}
+
+img{
+    padding: 0px;
+	height: 70px;
+	width: auto;
+}
+nav{
+	overflow: hidden;
+	background-color:darkblue;
+	margin-top: 20px;
+	font-size: 20px;
+
+}
+nav a{
+	float : left;
+	color: white;
+	padding: 10px 15px;
+	text-decoration: none;
+	
+}
+nav a:hover{
+	background-color: rgba(0, 0, 255, 0.5);
+	color: white;
+	cursor: pointer;
+}
+div.dropdown { /* puraii jj dropdown hunxaw tesailai*/
+  position: relative;
+  display: inline-block;
+  }
+  button.dropbtn {/* for buttononly */
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+  div.dropdown-content a  {/* droup jun content hnxaw tesko lagi*/
+  
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a:hover {
+	background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgba(0, 0, 255, 0.5);
+	color: white;
+}
+
+
+          
+
+
+
+
+.maindiv{
+	width: 100%;
+	height: 320px;
+	left: 50%
+	top:50%;
+	background-size: 100% 100%;
+	border: 2px solid black;
+	margin-top: 19px;
+	background-image: url("image4.jpg");
+	animation:slider 9s infinite linear;
+	/* slider name ho 4s kati ber samma dekhaune
+	infinte bhneko infinite choti 
+	linear bhaneko autai speed ma */
+}
+/* @keyframe is used when we use animation
+and slider is name of animation*/
+@keyframes slider{
+	  0%{ background-image: url("image4.jpg"); }
+	  /* yo bhneko 9 sec ko 0% dekhi 50% samma auta imgae dekhauxw */
+	  33%{ background-image: url("image2.jpg"); }
+
+	  73%{ background-image: url("photo.png"); }
+
+
+}
+.column{
+	float:left;
+	
+}
+
+
+.column.side{
+	width: 45%;
+	border: 1px solid black;
+}
+
+
+p.welcome{
+	font-size: 20px;
+	color: green;
+
+}
+h1.school{
+	color: blue;
+	
+
+}
+h1.about{
+	font-size:60px;
+	text-align: center;
+	
+}
+#about{
+	background-image: linear-gradient(to right, blue , lightblue);
+}
+p.oo{
+	color: darkblue;
+
+}
+p.ii{
+	color:black;
+}
+div.contact{
+	text-align: center;
+}
+h1.pp{
+	background-color: rgba(0,255,0 , 0.6);
+	text-align:center;
+	padding: 20px;
+}
+table{
+	width: 100%;
+}
+tr{
+	padding: 10px;
+}
+tr:hover {
+	background-color: orange;
+}
+.fab{
+	font-size: 50px;
+	padding: 20px;
+}
+input[type=text],select , textarea{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-top: 3px;
+	margin-bottom: 10px;
+	resize: vertical;}
+	
+	input[type=submit]{
+	padding: 10px;
+	color: white;
+	padding: 12px ;
+	margin:3px;
+	border: none;
+	cursor: pointer;
+	
+	color: black;}
+
+div.animation{
+	animation-name: about;
+	animation:3s infinite;
+	background-color: rgba(255,0,0 , 0.6);
+	
+}
+
+#lowersection #leftcolumn {
+        border: 2px solid red;
+
+        width: 1200px;
+        height: 1020px;
+        float: left;
+    }
+    
+#lowersection #rightcolumn {
+        
+        width: 200px;
+        height: 200px;
+        float: left;
+    }
+@keyframes about{
+	from {background-color: rgba(255,0,0 , 0.6)}
+    to {background-color: yellow;}
+}
+
+
+
+
+
+	       
+footer{
+	text-align: center;
+	border: 2px solid rgba(255,0,0 , 0.6);
+	background-color: lightblue;
+}
+
+
