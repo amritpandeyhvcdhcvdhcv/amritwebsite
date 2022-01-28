@@ -18,15 +18,15 @@
   
  </nav>
 	<form>  
-  <div class="container">  
+  <div class="form">  
   <center>  <h1> Student Registeration Form</h1> </center>  
   <hr>  
   <label> Firstname </label>   
-<input type="text" name="firstname" placeholder= "Firstname" size="15" />   
+<input type="text" name="firstname" placeholder= "Firstname">   
 <label> Middlename: </label>   
-<input type="text" name="middlename" placeholder="Middlename" size="15"  />   
+<input type="text" name="middlename" placeholder="Middlename">   
 <label> Lastname: </label>    
-<input type="text" name="lastname" placeholder="Lastname" size="15"/>   
+<input type="text" name="lastname" placeholder="Lastname">   
 <div>  
 <label>   
 Course :  
@@ -40,8 +40,8 @@ Course :
 <option value="MBA">Humanities</option>  
   
 </select>  
-</div>  
-<div>  
+
+
 <label>   
 Gender :  
 </label><br>  
@@ -49,14 +49,15 @@ Gender :
 <input type="radio" value="Female" name="gender"> Female   
 <input type="radio" value="Other" name="gender"> Other  
   
-</div>  
+ 
 <label>   
 Phone :  
 </label>    
-<input type="text" name="phone" placeholder="phone no." size="10"/ required>   
-Current Address :  
-<textarea cols="80" rows="5" placeholder="Current Address" value="address"/required >  
-</textarea>  
+<input type="text" name="phone" placeholder="phone no." / required>   
+<lable>Current Address : 
+</lable>
+<input type="text" name="address" placeholder="Your Address"> 
+
  <label for="email"><b>Email</b></label>  
  <input type="text" placeholder="Enter Email" name="email"/required>  
   
@@ -65,7 +66,8 @@ Current Address :
   
     <label for="psw-repeat"><b>Re-type Password</b></label>  
     <input type="password" placeholder="Retype Password" name="psw-repeat"/required ><br> 
-    <button type="submit" class="registerbtn">Register</button>    
+    <button type="submit" class="registerbtn">Register</button>
+    </div>    
 </form>  
 </body>  
 </html>  

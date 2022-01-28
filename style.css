@@ -171,13 +171,17 @@ tr:hover {
 	font-size: 50px;
 	padding: 20px;
 }
+.form{
+	width:1310px;
+}
+
 input[type=text],select , textarea{
 	width: 100%;
 	padding: 10px;
 	border: 1px solid #ccc;
 	margin-top: 3px;
 	margin-bottom: 10px;
-	resize: vertical;}
+	resize:horizontal;}
 	
 	input[type=submit]{
 	padding: 10px;
@@ -214,6 +218,12 @@ div.animation{
 	from {background-color: rgba(255,0,0 , 0.6)}
     to {background-color: yellow;}
 }
+	@media screen and (max-width: 1106px){
+	  div.right-col{
+		width: 100%
+	}
+}
+                    
 
 
 
